@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220" viewBox="0 0 880 220" role="img" aria-label="Hi, I'm Xin — small models · honest data · humans in the loop">
+<style>.leg{transform-box:fill-box;transform-origin:50% 0;animation:trot .45s ease-in-out infinite alternate}
+.leg.b{animation-delay:-.45s}
+@keyframes trot{from{transform:rotate(12deg)}to{transform:rotate(-12deg)}}
+.tail{transform-box:fill-box;transform-origin:100% 100%;animation:wag .3s ease-in-out infinite alternate}
+@keyframes wag{from{transform:rotate(-8deg)}to{transform:rotate(14deg)}}
+.ear{transform-box:fill-box;transform-origin:50% 0;animation:flop .45s ease-in-out infinite alternate}
+@keyframes flop{from{transform:rotate(-5deg)}to{transform:rotate(6deg)}}
+.type{animation:type 8s steps(11) infinite}
+@keyframes type{0%,45%{clip-path:inset(0 0 0 0)}50%{clip-path:inset(0 100% 0 0)}80%,100%{clip-path:inset(0 0 0 0)}}
+.cur{transform:translateX(198.0px);animation:cur 8s steps(11) infinite, blink .8s step-end infinite}
+@keyframes cur{0%,45%{transform:translateX(198.0px)}50%{transform:translateX(0)}80%,100%{transform:translateX(198.0px)}}
+@keyframes blink{50%{opacity:0}}
+.walk{animation:walk 16s linear infinite}
+@keyframes walk{0%{transform:translateX(320px)}52%{transform:translateX(900px)}52.01%{transform:translateX(-200px)}100%{transform:translateX(320px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<text class="type" x="341.0" y="62" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'PingFang SC','Microsoft YaHei',monospace" font-size="30" fill="#0969da">Hi, I'm Xin</text>
+<rect class="cur" x="343.0" y="38" width="3" height="32" fill="#0969da"/>
+<text x="440" y="100" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'PingFang SC','Microsoft YaHei',monospace" font-size="14" fill="#59636e">small models · honest data · humans in the loop</text>
+<line x1="20" y1="202" x2="860" y2="202" stroke="#d1d9e0" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round"/>
+<g class="walk"><g transform="translate(0,151) scale(0.53)"><path class="tail" d="M40,58 C28,52 20,42 16,30" stroke="#1f2328" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="leg a" d="M58,82 L57,96 L64,96" stroke="#1f2328" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path class="leg b" d="M72,82 L71,96 L78,96" stroke="#1f2328" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path class="leg b" d="M196,82 L195,96 L202,96" stroke="#1f2328" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path class="leg a" d="M210,82 L209,96 L216,96" stroke="#1f2328" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M54,48 L196,48 C204,48 208,44 212,38 L222,22 C226,14 236,10 244,12 C252,14 256,20 258,24 L280,28 C289,30 289,41 280,42 L256,43 C250,45 244,50 238,56 L226,72 C222,80 214,84 206,84 L54,84 C36,84 36,48 54,48 Z" stroke="#1f2328" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="ear" d="M238,20 C229,27 229,44 236,52 C243,49 245,33 241,21" stroke="#1f2328" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="251" cy="24" r="2.4" fill="#1f2328"/>
+<circle cx="285" cy="35" r="3.2" fill="#1f2328"/>
+<path d="M213,42 L226,58" stroke="#d9822b" stroke-width="5" stroke-linecap="round"/></g></g>
+</svg>
